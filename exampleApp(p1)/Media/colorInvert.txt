@@ -1,0 +1,7 @@
+The colorInvert filter inverts the colors in an image.
+[intro]
+Call the colorInvert filter method from the source image (image you want to affect). 
+[body]
+[image colorInvert];
+[code]
+

@@ -1,0 +1,8 @@
+The multiplyComposite filter multiplies the color component of two input images and creates an output image using the multiplied values.  This filter is typically used to add a spotlight or similar lighting effect to an image.
+[intro]
+Call the multiplyComposite filter method from the source image (image you want to affect), and use your affecting image as the "background image".    
+[body]
+[image multiplyComposite:backgroundImage];
+[code]
+TIP: The formula used to create this filter is described in Thomas Porter and Tom Duff. 1984. Compositing Digital Images. Computer Graphics, 18 (3): 253-259.
+[tip]

@@ -1,0 +1,6 @@
+The exclusionBlend filter produces an effect similar to that produced by the link:differenceBlend[differenceBlend] filter but with lower contrast.
+[intro]
+Call the exclusionBlend filter method from the source image (image you want to affect), and use your affecting image as the "background image". Source image sample values that are black do not produce a change; white inverts the background color values.
+[body]
+[image exclusionBlend:backgroundImage];
+[code]

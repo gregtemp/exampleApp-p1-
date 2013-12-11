@@ -1,0 +1,10 @@
+The straighten filter rotates the source image by the specified angle in radians.
+[intro]
+Call the straighten method from the source image (image you want to affect). 
+The image is scaled and cropped so that the rotated image fits the extent of the source image.
+ 
+The angular value to calculate the adjustment, defaults to 0.0, minimum -PI, maximum PI.
+[body]
+[image straighten:-PI/2];
+[code]
+

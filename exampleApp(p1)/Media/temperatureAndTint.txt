@@ -1,0 +1,12 @@
+The temperatureAndTint filter adapts the reference white point for an image.
+[intro]
+Call the temperatureAndTint filter method from the source image (image you want to affect).
+ 
+*neutral* is an offset value, defaults to {6500,0}
+
+*newWhitePoint* is a target offset value, defaults to {6500,0}
+[body]
+CGSizeMake neutral = CGSizeMake(w,h);
+CGSizeMake newWhitePoint = CGSizeMake(w,h);
+[image tempartureAndTint:neutral target:newWhitePoint];
+[code]

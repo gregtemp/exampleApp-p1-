@@ -1,0 +1,6 @@
+The luminosityBlend filter uses the hue and saturation of the background with the luminance of the source image.
+[intro]
+Call the luminosityBlend filter method from the source image (image you want to affect), and use your affecting image as the "background image". This mode creates an effect that is inverse to the effect created by the CIColorBlendMode filter.
+[body]
+[image luminosityBlend:backgroundImage];
+[code]

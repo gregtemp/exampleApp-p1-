@@ -1,0 +1,11 @@
+The highlightShadowAdjust filter is used to adjust the tonal mapping of an image while preserving spatial detail.
+[intro]
+Call the highlightShadowAdjust filter method from the source image (image you want to affect). 
+
+The adjustment value for image highlights, defaults to 1.0, minimum 0.0, maximum 1.0.
+
+The adjustment value for image shadows, defaults to 0.0, minimum -1.0, maximum 1.0.
+[body]
+[image highlightShadowAdjust:1.0f shadowAmount:0.0f];
+[code]
+

@@ -1,0 +1,11 @@
+The colorMatrix filter multiplies source color values and adds a bias factor to each color component.
+[intro]
+Call the colorMatrix filter method from the source image (image you want to affect).
+ 
+_color_ is a UIColor whose components will be used in the matrix multiplication.
+
+_bias_ is the *amount* that you want the _color_ to affect the image (ranges from 0.0f to 1.0f).
+[body]
+[image colorMatrix:color bias:0.0f];
+[code]
+

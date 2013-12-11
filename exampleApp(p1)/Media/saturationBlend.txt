@@ -1,0 +1,6 @@
+The saturationBlend filter uses the luminance and hue values of the background with the saturation of the source image.
+[intro]
+Call the saturationBlend filter method from the source image (image you want to affect), and use your affecting image as the "background image". Areas of the background that have no saturation (that is, pure gray areas) do not produce a change.
+[body]
+[image saturationBlend:backgroundImage];
+[code]

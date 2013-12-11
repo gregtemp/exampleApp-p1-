@@ -1,0 +1,6 @@
+The hardLightBlend filter either multiplies or screens colors, depending on the source image sample color.
+[intro]
+Call the hardLightBlend filter method from the source image (image you want to affect), and use your affecting image as the "background image".   
+[body]
+[image hardLightBlend:backgroundImage];
+[code]

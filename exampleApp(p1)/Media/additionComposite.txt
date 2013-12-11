@@ -1,0 +1,8 @@
+The additionComposite filter is typically used to add highlights and lens flare effects.  It combines two images together
+[intro]
+Call the additionComposite filter method from the source image (image you want to affect), and use your affecting image as the "background image".   
+[body]
+[image additionComposite:backgroundImage];
+[code]
+TIP: The formula used to create this filter is described in Thomas Porter and Tom Duff. 1984. Compositing Digital Images. Computer Graphics, 18 (3): 253-259.
+[tip]

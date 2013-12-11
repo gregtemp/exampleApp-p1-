@@ -1,0 +1,6 @@
+The lightenBlend filter creates a composite image by choosing the lighter samples from two different images.
+[intro]
+Call the lightenBlend filter method from the source image (image you want to affect), and use your affecting image as the "background image". The background image samples are replaced by any source image samples that are lighter. Otherwise, the background image samples are left unchanged.  
+[body]
+[image lightenBlend:backgroundImage];
+[code]

@@ -1,0 +1,8 @@
+The sepiaTone filter maps the colors of an image to various shades of brown.
+[intro]
+Call the sepiaTone filter method from the source image (image you want to affect).
+
+The level of intensity of the sepia tone, defaults to 1.0, minimum 0.0, maximum 1.0
+[body]
+[image sepiaTone:1.0f];
+[code]

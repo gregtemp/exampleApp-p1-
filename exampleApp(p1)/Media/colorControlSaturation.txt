@@ -1,0 +1,13 @@
+The colorControlSaturation filter adjusts saturation, brightness, and contrast values.
+[intro]
+Call the colorControlSaturation filter method from the source image (image you want to affect).
+ 
+_Saturation_ value defaults to 1.0f, minimum 0.0f, maximum 2.0f. 
+
+_Brightness_ value defaults to 0.0f, minimum -1.0f, maximum 1.0f. 
+
+_Contrast_ value defaults to 1.0f, minimum 0.0f, maximum 4.0f.
+[body]
+[image colorControlSaturation:1.0f brightness:0.0f contrast:1.0f];
+[code]
+

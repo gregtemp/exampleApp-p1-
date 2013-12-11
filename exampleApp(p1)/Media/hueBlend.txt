@@ -1,0 +1,6 @@
+The hueBlend filter uses the luminance and saturation values of the background with the hue of the source image.
+[intro]
+Call the hueBlend filter method from the source image (image you want to affect), and use your affecting image as the "background image".   
+[body]
+[image hueBlend:backgroundImage];
+[code]

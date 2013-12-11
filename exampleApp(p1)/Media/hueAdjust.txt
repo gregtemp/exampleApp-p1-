@@ -1,0 +1,10 @@
+The hueAdjust filter changes the overall hue, or tint, of the source pixels.
+[intro]
+Call the hueAdjust filter method from the source image (image you want to affect). 
+This filter essentially rotates the color cube around the neutral axis.
+
+The angular value to calculate the adjustment, defaults to 0.0, minimum -PI, maximum PI.
+[body]
+[image hueAdjust:-PI/2];
+[code]
+

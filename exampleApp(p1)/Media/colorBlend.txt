@@ -1,0 +1,6 @@
+The colorBlend filter uses the luminance values of the background with the hue and saturation values of the source image.
+[intro]
+Call the colorBlend filter method from the source image (image you want to affect), and use your affecting image as the "background image".   
+[body]
+[image colorBlend:backgroundImage];
+[code]

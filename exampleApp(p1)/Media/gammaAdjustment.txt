@@ -1,0 +1,10 @@
+The gammaAdjustment filter adjusts midtone brightness.
+[intro]
+Call the gammaAdjustment filter method from the source image (image you want to affect). 
+This filter is typically used to compensate for nonlinear effects of displays. Adjusting the gamma effectively changes the slope of the transition between black and white.
+
+The level of gamma adjustment, defaults to 0.75, within a range from 0.10f to 3.0f
+[body]
+[image gammaAdjustment:0.5f];
+[code]
+

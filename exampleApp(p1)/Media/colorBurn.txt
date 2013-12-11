@@ -1,0 +1,8 @@
+The colorBurn filter darkens the background image samples to reflect the source image samples.
+[intro]
+Call the colorBurn filter method from the source image (image you want to affect), and use your affecting image as the "background image".   
+[body]
+[image colorBurn:backgroundImage];
+[code]
+TIP: Source image sample values that specify white do not produce a change.
+[tip]

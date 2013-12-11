@@ -1,0 +1,6 @@
+The screenBlend filter multiplies the inverse of the source image samples with the inverse of the background image samples.
+[intro]
+Call the screenBlend filter method from the source image (image you want to affect), and use your affecting image as the "background image". This results in colors that are at least as light as either of the two contributing sample colors.
+[body]
+[image screenBlend:backgroundImage];
+[code]

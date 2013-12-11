@@ -1,0 +1,6 @@
+The darkenBlend filter creates composite image samples by choosing the darker samples from two different images.
+[intro]
+Call the darkenBlend filter method from the source image (image you want to affect), and use your affecting image as the "background image". The result is that the background image samples are replaced by any source image samples that are darker. Otherwise, the background image samples are left unchanged.
+[body]
+[image darkenBlend:backgroundImage];
+[code]

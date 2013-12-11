@@ -1,0 +1,6 @@
+The multiplyBlend filter multiplies the source image samples with the background image samples. It results in colors that are at least as dark as either of the two contributing sample colors.
+[intro]
+Call the multiplyBlend filter method from the source image (image you want to affect), and use your affecting image as the "background image".   
+[body]
+[image multiplyBlend:backgroundImage];
+[code]
